@@ -1,0 +1,30 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 08/11/2022
+Var
+// Seção de Declarações das variáveis
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+// Algoritmo para almoçar em um restaurante
+
+escreval("Olá mundo")
+escreval("01 Escolher restaurante")
+escreval("02 Chegar ao restaurante")
+escreval("03 Escolher uma mesa")
+escreval("04 Pedir garçom o cardápio")
+escreval("05 Escolher um prato")
+escreval("06 Fazer o pedido ao garçom")
+escreval("07 Esperar até que o meu prato esteja pronto")
+escreval("08 Garçom serve o pedido")
+escreval("09 Agradecer ao garçom")
+escreval("10 Comer")
+escreval("11 Chamar garçom para acerto de conta")
+escreval("12 Pagar")
+escreval("13 Ir embora")
+Fimalgoritmo

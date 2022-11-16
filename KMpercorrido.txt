@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 15/11/2022
+Var
+// Seção de Declarações das variáveis 
+kmperco: real
+ultabas: real
+calculo, gasto: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ESCREVAL ("CALCULE QUANTOS KM SEU CARRO FAZ POR LITRO")
+
+escreval ("Digite as informações necessárias")
+
+ESCREVA ("KM percorrido:")
+leia (kmperco)
+
+escreva ("Quantos litros foram gastos:")
+leia (gasto)
+
+calculo <- kmperco/gasto
+
+escreva ("quantidade de litros/km:")
+
+escreva (calculo)
+
+
+Fimalgoritmo

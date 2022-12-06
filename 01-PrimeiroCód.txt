@@ -1,30 +1,40 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 08/11/2022
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
 
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
-// Algoritmo para almoÁar em um restaurante
+// Algoritmo para almo√ßar em um restaurante
 
-escreval("Ol· mundo")
+escreval("Ol√° mundo")
 escreval("01 Escolher restaurante")
 escreval("02 Chegar ao restaurante")
 escreval("03 Escolher uma mesa")
-escreval("04 Pedir garÁom o card·pio")
+escreval("04 Pedir gar√ßom o card√°pio")
 escreval("05 Escolher um prato")
-escreval("06 Fazer o pedido ao garÁom")
-escreval("07 Esperar atÈ que o meu prato esteja pronto")
-escreval("08 GarÁom serve o pedido")
-escreval("09 Agradecer ao garÁom")
+escreval("06 Fazer o pedido ao gar√ßom")
+escreval("07 Esperar at√© que o meu prato esteja pronto")
+escreval("08 Gar√ßom serve o pedido")
+escreval("09 Agradecer ao gar√ßom")
 escreval("10 Comer")
-escreval("11 Chamar garÁom para acerto de conta")
+escreval("11 Chamar gar√ßom para acerto de conta")
 escreval("12 Pagar")
 escreval("13 Ir embora")
 Fimalgoritmo
+
+//Fa√ßa um c√≥digo que leia 5 n√∫meros, armazeno-os em um vetor e posterimormente diga quantos s√£o pares.
+
+//Fa√ßa um c√≥digo que leia cinco idades armazeno-as em um vetor e diga: qual a maior, a menor e a m√©dia.
+
+//Fa√ßa um c√≥digo que leia: o nome de um produto, seu pre√ßo, e se tem em estoque (tipo: l√≥gico). Armazene em 03 vetores diferentes. Posteriormente pe√ßa ao usu√°rio para buscar o nome de um produto. O algoritmo deve retornar seu pre√ßo e se tem em estoque.
+
+//Fa√ßa um c√≥digo que gere aleatoriamente 5 numeros de notas e armazene em um vetor. Use outro vetor para armazenar o nome de 5 alunos. Pe√ßa ao usu√°rio para buscar um nome e o programa mostre a nota desse aluno.
+
+randi(qtde)

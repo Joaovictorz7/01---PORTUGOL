@@ -1,0 +1,162 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 15/12/2022
+Var
+// Seção de Declarações das variáveis
+ch:inteiro
+cas, alter, enter, cont, tentativas:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ escreval ("-------CHARADAS------")
+escreval ("Aperte enter para começar")
+ LEIA (ENTER)
+
+ ch<-randI(5)
+ cont<-0
+ tentativas<-0
+ //cont = parar quando acertar, tentativas = numero de tentativas
+ enquanto (cont=0) e (tentativas<2) faca
+
+ escolha ch
+
+ caso 0
+
+escreval ("No meu jardim existe 3 pés de alface,")
+ESCREVAL ("1 de pepino e 5 de cenoura. Quantos pés eu tenho no total?")
+escreval ("1)2 pés")
+escreval ("2)9 pés")
+escreval ("3)7 pés")
+
+leia (alter)
+
+se (alter=1) entao
+escreval ("RESPOSTA CERTA!!")
+cont<- cont+1
+escreval("Eu, como a maior parte das pessoas, tenho 2 pés.")
+senao
+escreval ("Resposta errada")
+tentativas <-tentativas +1
+fimse
+
+se (tentativas=2) entao
+escreval("Eu, como a maior parte das pessoas, tenho 2 pés.")
+senao
+fimse
+
+caso 1
+
+escreval ("Anda sobre quatro membros de manhã, dois à tarde e três à noite.")
+escreval("                                                  ")
+escreval ("1)A centopeia")
+escreval ("2)A cama ")
+escreval ("3)O ser humano")
+Escreval ("Digite o número da resposta:")
+leia (alter)
+se (alter=3) entao
+escreval ("RESPOSTA CERTA!!")
+cont<- cont+1
+escreval ("O ser humano anda com quatro pernas quando está engatiando,")
+escreval ("duas quando é adulto e 3 quando está veljo e precisa de bengala.")
+senao
+escreval ("Resposta errada")
+tentativas <-tentativas +1
+fimse
+se (tentativas=2) entao
+escreval ("O ser humano anda com quatro pernas quando está engatiando,")
+escreval ("duas quando é adulto e 3 quando está veljo e precisa de bengala.")
+senao
+fimse
+
+
+caso 2
+
+escreval ("Quando eu tinha 8 anos, a minha irmã tinha a metade da minha idade.")
+escreval ("Agora que tenho 55 anos, com quantos anos minha irmã está?")
+escreval("                                                  ")
+escreval ("1)56 anos")
+escreval ("2)55 anos")
+escreval ("3)51 anos")
+escreval ("Digite o número da resposta:")
+leia (alter)
+se (alter=3) entao
+escreval ("RESPOSTA CERTA!!")
+escreval("Essa não fio tão dificil né!")
+cont<- cont+1
+senao
+escreval ("Resposta errada")
+tentativas <-tentativas +1
+fimse
+se (tentativas=2) entao
+escreval ("Meu pai KKKKKKK")
+fimse
+
+caso 3
+
+escreval("Uma mulher irá ter um bebê. Se ele for menino,ficará faltando")
+escreval("apenas um filho para que o número de meninos")
+escreval ("seja igual ao de filhas.")
+escreval("No entanto, se o bebê for uma menina, o número de filhas da mulher")
+escreval("será o dobro do número de meninos. ")
+escreva ("Quantos filhos ela tem e qual é o sexo deles?")
+escreval("----------------------------------------------")
+escreval ("1)8 filhos, 6 meninos e 2 meninas")
+escreval ("2)10 filhos, 5 meninos e 5 meninas ")
+escreval ("3)8 filhos, 3 meninos e 5 meninas")
+escreval ("Digite o número da resposta:")
+leia (alter)
+se (alter=3) entao
+escreval ("RESPOSTA CERTA!!")
+escreval ("A mulher tem 8 filhos - 3 meninos e 5 meninas.")
+escreval("Assim, se tiver mais 1 menino faltará apenas mais 1 para")
+escreval("ter o mesmo número de filhos e filhas, num total de 10.")
+escreval ("Se tiver mais 1 menina, serão 6 filhas ao todo,")
+escreva ("que é o dobro dos 3 filhos que ela já tem. ")
+cont<- cont+1
+senao
+escreval ("Resposta errada")
+tentativas <-tentativas +1
+fimse
+
+se (tentativas=2) entao
+escreval ("RESPOSTA CERTA!!")
+escreval ("A mulher tem 8 filhos - 3 meninos e 5 meninas.")
+escreval("Assim, se tiver mais 1 menino faltará apenas mais 1 para")
+escreval("ter o mesmo número de filhos e filhas, num total de 10.")
+escreval ("Se tiver mais 1 menina, serão 6 filhas ao todo,")
+escreva ("que é o dobro dos 3 filhos que ela já tem. ")
+fimse
+
+
+caso 4
+
+ESCREVAL ("Há um pato entre dois patos, um pato atrás de um")
+ESCREVAL ("pato e um pato na frente de outro pato.")
+ESCREVAL ("De quantos patos estamos falando?")
+ESCREVAL ("                                                ")
+escreval ("1)2 patos")
+escreval ("2)4 patos ")
+escreval ("3)3 patos")
+
+escreval ("Digite o número da resposta:")
+leia (alter)
+se (alter=3) entao
+escreval ("RESPOSTA CERTA!!")
+cont<- cont+1
+senao
+escreval ("Resposta errada")
+tentativas <-tentativas +1
+fimse
+se (tentativas=2) entao
+escreval ("Meu pai KKKKKKK")
+fimse
+
+
+
+fimescolha
+fimenquanto
+
+Fimalgoritmo

@@ -18,3 +18,28 @@ para y de 0 ate 5 faca
 escreva (numeros[y])
 fimpara
 Fimalgoritmo
+
+
+
+
+
+
+Algoritmo "semnome"
+//acesso a dados da matriz
+Var
+// Seção de Declarações das variáveis 
+x, y, quant: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+quant<-0
+para x de 0 ate 4 faca
+para y de 0 ate 3 faca
+quant<-quant+1
+escreval(quant, " - 2m")
+fimpara
+fimpara
+
+
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/12/2022
+Var
+// Seção de Declarações das variáveis
+numeros:vetor[0..5] de inteiro
+x,y:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para x de 0 ate 5 faca
+numeros[x]<-randi(100)
+fimpara
+
+para y de 0 ate 5 faca
+escreva (numeros[y])
+fimpara
+Fimalgoritmo
